@@ -1,0 +1,181 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family:sans-serif;
+    overflow-x: hidden;
+}
+.navbar-toggler {
+    background-color: white;
+}
+#navbar{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0%;
+}
+/* nav end ====================== */
+.web{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.562),rgba(0,0,0,0.63)),url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:auto;
+    width:auto;
+}
+#banner{
+    height: 90vh;
+    width: 100%;
+}
+.mybtn{
+    background-color: rgb(146, 40, 196);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.mybtn2{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text{
+    text-align: center;
+    width: 50%;
+}
+/* banner end========================================== */
+.serviceimg{
+    background-image: linear-gradient(to top,#ae6aa1,#f9ac35);
+    width: 100px;
+    padding: 20px 20px;
+    border-radius:30px;
+  height: fit-content;
+  margin: 20px;
+}
+.serviceimg img{
+    width: 30px;
+}
+.service-heading{
+   margin:50px 20px;
+}
+#section1{
+    padding: 70px;
+}
+/* section1 (services) end====================================== */
+
+#section2{
+    background-color: #f8f8f8;
+    padding: 70px;
+    height: auto;
+    width: auto;
+}
+.about-img{
+    width:100%;
+}
+/* section2 (about us) end============================================ */
+
+
+#section3{
+    padding: 70px;
+}
+.more-img{
+    background-image: linear-gradient(to top,#ae6aa1,#f9ac35);
+    width: 100px;
+    padding: 20px;
+    border-radius:30px;
+  height: fit-content;
+  margin: 20px;
+}
+.more-services{
+    margin:50px 20px;
+}
+/* section3 (more service) end================================================= */
+#section4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.562),rgba(0, 0, 0, 0.63)),url(assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.dwnld{
+    padding: 70px;
+    height: 50vh;
+}
+.mybtn3{
+    background-color: rgb(146, 40, 196);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+/* section4 end=================================================================================== */
+#section5{
+    padding: 70px;
+}
+
+.portf-img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+div{
+    overflow: hidden;
+}
+.portf-img{
+    overflow:hidden;
+    transition: transform .8s;
+    margin-bottom: 50px;
+}
+.portf-text img:hover{
+ transform: translateX(20px);
+}
+.portf-text img{
+    transition: transform .8s;
+    cursor: pointer;
+}
+/* section5 (portfolio) end=========================================== */
+
+#section6{
+    background-color: rgb(14, 13, 13);
+    padding: 50px;
+    height: auto;
+    
+}
+#section6 .container{
+   
+}
+
+
+
+
+
+@media only screen and (max-width:766px){
+    .banner{
+        height: auto;
+    }
+.service-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+text-align:center;
+}
+
+.service-heading{
+    text-align: center;
+}
+.more-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+text-align:center;
+}
+.dwnld{
+    height: auto;
+}
+
+}
